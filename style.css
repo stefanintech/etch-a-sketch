@@ -1,0 +1,9 @@
+.box {
+    width: 20px;
+    height: 20px;
+    border: 2px solid red;
+}
+
+.box:hover {
+    background-color: green;
+}
