@@ -6,7 +6,9 @@ function createBox(num) {
         const div = document.createElement("div");
         div.style.width = size + "px"
         div.style.height = size + "px"
+        div.classList.toggle("border")
         div.classList.toggle("box")
+        div.addEventListener("mouseover", e => e.target.style.backgroundColor = "green")
         container.appendChild(div)
     }
 }
